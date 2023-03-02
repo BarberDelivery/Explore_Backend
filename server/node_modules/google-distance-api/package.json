@@ -1,0 +1,37 @@
+{
+  "name": "google-distance-api",
+  "version": "1.0.0",
+  "description": "node.js wrapper for the doogle distance api",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 10000 test/*.js"
+  },
+  "author": {
+    "name": "Dominic Scanlan",
+    "email": "dominic.scanlan@gmail.com",
+    "url": "http://thisisnotanexit.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dscanlan/google-distance-api.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "distance",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1"
+  },
+  "engines": {
+    "node": ">=6.11.0"
+  }
+}
